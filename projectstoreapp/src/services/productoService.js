@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const URL = "https://601e0117be5f340017a1a114.mockapi.io/productos"
+// const URL = "https://601e0117be5f340017a1a114.mockapi.io/productos"
+const URL = "https://600f6a526c21e1001704eae9.mockapi.io/productos"
 // const URL = "https://backfloresv1.herokuapp.com/api/v1/productos"
 
 const obtenerProductos = async () => {
