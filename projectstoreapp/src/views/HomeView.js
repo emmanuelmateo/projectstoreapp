@@ -1,12 +1,13 @@
 import React from 'react'
 import Tarjetas from '../components/Tarjetas'
+import Navbar from "../components/Navbar"
 
-import BootstrapNavbar from '../components/BootstrapNavbar';
 
 export default function HomeView() {
     return (
         <div className="mt-4">
-            <BootstrapNavbar/>
+            <Navbar/>
+            <hr/>
             <h1>StoreApp</h1>
             <Tarjetas/>            
         </div>
