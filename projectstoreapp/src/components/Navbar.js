@@ -17,7 +17,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                         <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <input size="80" className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
                             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
                             <button className="btn btn-outline-success" type="submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

@@ -10,8 +10,23 @@ export default function HomeView() {
             <Navbar/>
             <hr/>
             <Carousel/>
-            <h1>StoreApp</h1>
-            <Tarjetas/>            
+            <hr/>
+            <div style={{backgroundColor: '#231F20', textAlign:'center'}}  >
+                <p 
+                style={{
+                    color: '#FFFFFF', 
+                    // textAlign:'center', 
+                    // alignContent:'center',
+                    fontSize:'28',
+                    height:'50px',
+                    // marginTop:'0' ,
+                    // marginBottom:'0'
+                    // backgroundColor:'#F48024'
+                    }}>
+                        Ofertas de la semana
+                </p>
+            </div>                                                             
+            <Tarjetas/>                                  
         </div>
     )
 }
