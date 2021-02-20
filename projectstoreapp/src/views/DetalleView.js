@@ -1,5 +1,6 @@
 import React, {useState, useEffect, Fragment} from 'react'
 import {obtenerProductoPorId} from "../services/productoService"
+import Navbar from "../components/Navbar"
 
 export default function DetalleView(props) {
     // console.log(props.match.params.id)
@@ -20,6 +21,8 @@ export default function DetalleView(props) {
 
     return (
         <div className="mt-3">
+            <Navbar/>
+            <hr/>
             <div className="row">
                 <div className="col-md-12 col-xl-6">
                     <img 
