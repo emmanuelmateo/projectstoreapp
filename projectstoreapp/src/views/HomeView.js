@@ -1,13 +1,14 @@
 import React from 'react'
 import Tarjetas from '../components/Tarjetas'
 import Navbar from "../components/Navbar"
+import Navigation from "../components/Navigation"
 import Carousel from "../components/Carousel"
 
 
 export default function HomeView() {
     return (
         <div className="mt-4">
-            <Navbar/>
+            <Navigation/>
             <hr/>
             <Carousel/>
             <hr/>
